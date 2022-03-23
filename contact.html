@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>My Contact</h3>
+    <ul>
+    <p><strong>Email:</strong> nupdike7@gmail.com</p>
+    <p><strong>Cell:</strong> (208) 315-3940</p>
+    </ul>
+    <hr>
+
+    <form action="mailto:nupdike7@gmail.com" method="post" enctype="text/plain">
+      <!-- ACTION = WHAT WILL HAPPEN WHEN YOU CLICK "SUBMIT".
+      MAILTO OPENS UP YOUR DEFAULT MAIL CLIENT.
+      POST = TRANSFERS WHAT THE USER TYPES IN THE INPUT FIELDS INTO THE EMAIL CLIENT.
+      enctype="text/plain MEANS THAT THE DATA IN THE FORM IS ENCODED IN PLAIN TEXT.-->
+      <label>Your Name:</label>
+      <input type="text" name="yourName"><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail"><br>
+      <label>Your Message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br> <!-- CREATES A BOX FOR THE TEXT TO TYPE A MESSAGE IN. SIZE CAN BE ADJUSTED. -->
+      <input type="submit" name="" value="Send">
+      <input type="reset" name="" value="Clear">
+      </form>
+  </body>
+</html>
